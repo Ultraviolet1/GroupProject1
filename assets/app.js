@@ -61,47 +61,47 @@ $("#gopher").on("click", function () {
 
 
 
-//dipthongs
+// //dipthongs
 
-$("#bear").on("click", function () {
-  var msg = new SpeechSynthesisUtterance(diphthongs[0]);
-  window.speechSynthesis.speak(msg);
-});
+// $("#bear").on("click", function () {
+//   var msg = new SpeechSynthesisUtterance(diphthongs[0]);
+//   window.speechSynthesis.speak(msg);
+// });
 
-$("#caiman").on("click", function () {
-  var msg = new SpeechSynthesisUtterance(diphthongs[1]);
-  window.speechSynthesis.speak(msg);
-});
+// $("#caiman").on("click", function () {
+//   var msg = new SpeechSynthesisUtterance(diphthongs[1]);
+//   window.speechSynthesis.speak(msg);
+// });
 
-$("#snowyowl").on("click", function () {
-  var msg = new SpeechSynthesisUtterance(diphthongs[2]);
-  window.speechSynthesis.speak(msg);
-});
+// $("#snowyowl").on("click", function () {
+//   var msg = new SpeechSynthesisUtterance(diphthongs[2]);
+//   window.speechSynthesis.speak(msg);
+// });
 
-$("#koi").on("click", function () {
-  var msg = new SpeechSynthesisUtterance(diphthongs[3]);
-  window.speechSynthesis.speak(msg);
-});
+// $("#koi").on("click", function () {
+//   var msg = new SpeechSynthesisUtterance(diphthongs[3]);
+//   window.speechSynthesis.speak(msg);
+// });
 
-$("#earwig").on("click", function () {
-  var msg = new SpeechSynthesisUtterance(diphthongs[4]);
-  window.speechSynthesis.speak(msg);
-});
+// $("#earwig").on("click", function () {
+//   var msg = new SpeechSynthesisUtterance(diphthongs[4]);
+//   window.speechSynthesis.speak(msg);
+// });
 
-$("#mouse").on("click", function () {
-  var msg = new SpeechSynthesisUtterance(diphthongs[5]);
-  window.speechSynthesis.speak(msg);
-});
+// $("#mouse").on("click", function () {
+//   var msg = new SpeechSynthesisUtterance(diphthongs[5]);
+//   window.speechSynthesis.speak(msg);
+// });
 
-$("#hyena").on("click", function () {
-  var msg = new SpeechSynthesisUtterance(diphthongs[6]);
-  window.speechSynthesis.speak(msg);
-});
+// $("#hyena").on("click", function () {
+//   var msg = new SpeechSynthesisUtterance(diphthongs[6]);
+//   window.speechSynthesis.speak(msg);
+// });
 
-$("#cougar").on("click", function () {
-  var msg = new SpeechSynthesisUtterance(diphthongs[7]);
-  window.speechSynthesis.speak(msg);
-});
+// $("#cougar").on("click", function () {
+//   var msg = new SpeechSynthesisUtterance(diphthongs[7]);
+//   window.speechSynthesis.speak(msg);
+// });
 
 //unvoiced Consonants
 
@@ -157,20 +157,20 @@ $("#monkey").on("click", function () {
   window.speechSynthesis.speak(msg);
 });
 
-$("#bird").on("click", function () {
-  var msg = new SpeechSynthesisUtterance(voicedConsonants[2]);
-  window.speechSynthesis.speak(msg);
-});
+//$("#bird").on("click", function () {
+//var msg = new SpeechSynthesisUtterance(voicedConsonants[2]);
+//window.speechSynthesis.speak(msg);
+//});
 
-$("#nightingale").on("click", function () {
-  var msg = new SpeechSynthesisUtterance(voicedConsonants[3]);
-  window.speechSynthesis.speak(msg);
-});
+//$("#nightingale").on("click", function () {
+//var msg = new SpeechSynthesisUtterance(voicedConsonants[3]);
+//window.speechSynthesis.speak(msg);
+//});
 
-$("#feather").on("click", function () {
-  var msg = new SpeechSynthesisUtterance(voicedConsonants[4]);
-  window.speechSynthesis.speak(msg);
-});
+//$("#feather").on("click", function () {
+// var msg = new SpeechSynthesisUtterance(voicedConsonants[4]);
+// window.speechSynthesis.speak(msg);
+// });
 
 $("#flamingo").on("click", function () {
   var msg = new SpeechSynthesisUtterance(voicedConsonants[5]);
@@ -197,17 +197,18 @@ $("#wasp").on("click", function () {
   window.speechSynthesis.speak(msg);
 });
 
-$("#asianelephant").on("click", function () {
-  var msg = new SpeechSynthesisUtterance(voicedConsonants[10]);
-  window.speechSynthesis.speak(msg);
-});
+// $("#asianelephant").on("click", function () {
+//   var msg = new SpeechSynthesisUtterance(voicedConsonants[10]);
+//   window.speechSynthesis.speak(msg);
+// });
 
 $("#llama").on("click", function () {
   var msg = new SpeechSynthesisUtterance(voicedConsonants[11]);
   window.speechSynthesis.speak(msg);
 });
+console.log(msg)
 
-$("#jackal").on("click", function () {
+$("#jack russell terrier").on("click", function () {
   var msg = new SpeechSynthesisUtterance(voicedConsonants[12]);
   window.speechSynthesis.speak(msg);
 });
@@ -229,20 +230,21 @@ $("#yorkie").on("click", function () {
 
 
 
-// var config = {
-//   apiKey: "AIzaSyBtpr09-F0k89EO6_lAqt7zwP1iy4FVkW0",
-//   authDomain: "see-n-say-14b3b.firebaseapp.com",
-//   databaseURL: "https://see-n-say-14b3b.firebaseio.com",
-//   projectId: "see-n-say-14b3b",
-//   storageBucket: "see-n-say-14b3b.appspot.com",
-//   messagingSenderId: "689086528373"
-// };
-// firebase.initializeApp(config);
+var config = {
+  apiKey: "AIzaSyBtpr09-F0k89EO6_lAqt7zwP1iy4FVkW0",
+  authDomain: "see-n-say-14b3b.firebaseapp.com",
+  databaseURL: "https://see-n-say-14b3b.firebaseio.com",
+  projectId: "see-n-say-14b3b",
+  storageBucket: "see-n-say-14b3b.appspot.com",
+  messagingSenderId: "689086528373"
+};
 
-// var database = firebase.database();
+firebase.initializeApp(config);
 
-$(".button").on('click', function (event)  {
+var database = firebase.database();
 
+$(".button").on('click', function (event) {
+  event.preventDefault();
 
   var animal = $(this).attr("data-type");
 
@@ -274,9 +276,9 @@ $(".button").on('click', function (event)  {
   })
 });
 
- $(".button").on('click', function (event) {
+$(".button").on('click', function (event) {
   event.preventDefault();
-  
 
- displayGifs();
+
+  displayGifs();
 });

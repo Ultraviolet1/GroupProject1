@@ -1,3 +1,85 @@
+body {background-image: url("https://mybackdrop.co.uk/wp-content/uploads/2017/03/Jungle-backdrop.jpg");
+background-color:  rgb(6, 51, 6);
+background-position: 100%;
+
+
+}
+
+h1 {
+    position: center;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 50px
+}
+
+h2 {
+    position: center;
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 30px;
+
+
+
+}
+
+.form-group {
+    color:white;
+    background-color: rgb(6, 51, 6);
+
+}
+
+
+button {
+        position: relative;
+        
+        -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+        -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+        
+        background: white;
+        border: 10px solid transparent;
+        border-color:rgb(6, 51, 6);
+        border-image: url(jungle.png);
+        float: bottom;
+
+        
+      }
+      
+      /* Make the image fit the box */
+      button img {
+        width: 100%;
+        border: 1px solid #8a4419;
+        border-style: inset;
+      }
+      
+      button::after {
+        content: '';
+        position: absolute;
+        z-index: -1; /* hide shadow behind image */
+        -webkit-box-shadow: 0 20px 25px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0 20px 25px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 20px 25px rgba(0, 0, 0, 0.3);        
+        width: 80%; 
+        left: 10%; /* one half of the remaining % 20*/
+        height: 100px;
+        bottom: 0;
+      }
+
+      h3{
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          color: darkgreen;
+          background-color: antiquewhite;
+          font-size: 30px;
+
+      }
+
+      .sr-only{
+          color:lightblue;
+          font-size: 30px;
+          
+      }
+
 .gifs {
     display: flex;
     flex-direction: row;
@@ -15,4 +97,12 @@
     height: 200px;
     border-style: solid;
     border-color: black;
+}
+
+.container{
+    float: right;
+    position: relative;
+
+
+
 }
